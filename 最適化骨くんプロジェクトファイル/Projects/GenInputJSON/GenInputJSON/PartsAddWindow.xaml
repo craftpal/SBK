@@ -1,0 +1,14 @@
+﻿<Window x:Name="PartsAddWindow" x:Class="GenInputJSON.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GenInputJSON"
+        mc:Ignorable="d"
+        Title="追加の名前" Height="78" Width="300" WindowStyle="ToolWindow">
+    <Grid>
+        <TextBox x:Name="textName" HorizontalAlignment="Left" Height="23" Margin="10,6,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231"/>
+        <Button x:Name="btOk" Content="OK" HorizontalAlignment="Left" Margin="246,6,0,0" VerticalAlignment="Top" Width="36" Height="23" Click="btOk_Click"/>
+
+    </Grid>
+</Window>
